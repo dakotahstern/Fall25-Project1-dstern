@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Movie Spotlight</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <div class="card" id="MovieCard">
+        <h1 id="Title">Inception</h1>
+
+        <img
+          id="CoverArt"
+          class="cover"
+          src="https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg"
+          alt="Inception cover art"
+        />
+
+        <h5 id="Rating" class="rating">IMDB Rating: 8.8 / 10</h5>
+
+        <div class="video-wrap">
+          <iframe
+            id="Trailer"
+            src="https://www.youtube.com/embed/YoHD9XEInc0"
+            title="Inception — Official Trailer"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <p class="imdb-link">
+          <a
+            id="IMDBLink"
+            href="https://www.imdb.com/title/tt1375666/"
+            target="_blank"
+            rel="noopener"
+          >
+            View on IMDB
+          </a>
+        </p>
+
+        <p id="Summary" class="summary">
+          A thief who steals corporate secrets through the use of dream-sharing
+          technology is given the inverse task of planting an idea into the mind
+          of a C.E.O., but his tragic past may doom the project and his team to
+          disaster.
+        </p>
+
+        <h3>Cast</h3>
+        <ul id="Actors" class="actors">
+          <li>Leonardo DiCaprio</li>
+          <li>Joseph Gordon-Levitt</li>
+          <li>Elliot Page</li>
+          <li>Tom Hardy</li>
+          <li>Cillian Murphy</li>
+        </ul>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
